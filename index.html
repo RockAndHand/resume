@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Library/Project</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./project.css">
+  <link rel="stylesheet" href="./panel.css">
+</head>
+<body>
+  <!-- Entrance Splash Overlay -->
+  <div id="splash">
+    <img src="RunWme.png" alt="Library Logo">
+  </div>
+  
+  <!-- Animated Background Canvas -->
+  <canvas id="bgCanvas"></canvas>
+  
+  <!-- Navigation Bar -->
+  <header>
+    <nav>
+      <ul id="nav-list">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main content -->
+  <main>
+    <!-- Home Section -->
+    <section id="home">
+      <h1>Welcome to My Project</h1>
+
+    
+      <h2>Run With Me</h2>
+      <p>Run With Me is an engaging and interactive running game that blends the thrill of speed with dynamic gameplay elements. 
+        Designed using the Godot engine, it offers a seamless experience where players navigate challenging environments, collect rewards, and customize their characters effortlessly. 
+        The game integrates music synchronization, a rewarding system, and procedural generation to create an immersive atmosphere that evolves with player actions.
+
+        Beyond entertainment, Run With Me aims to modernize interactive gaming by reducing complexity and improving accessibility. 
+        Its innovative features ensure every player enjoys high-quality content while fostering a strong gaming community. 
+        Whether racing against time or unlocking new levels, the game delivers excitement and strategic decision-making at every step.</p>
+        <p><strong>Tools Used:</strong> GoDot, GD script</p>
+      <img src="RunWme.png" alt="Screenshot from My RPG" id="game-image">
+      <p>
+        <a href="https://drive.google.com/file/d/13FbTtmtkXFTm06XjFdmI5TbD-cxUPh6-/view?usp=drive_link" target="_blank" id="game-link">
+          Download the Game
+        </a>
+      </p>
+      <br>
+      <br>
+      <br>
+      <br>
+      <article>
+        <h2>Jump Please!</h2>
+        <p>A 2D platform game that takes jumping to a new level. Initially developed for PC, an Android version is also available.</p>
+        <p><strong>Tools Used:</strong> GoDot, GD script</p>
+        <img src="R.png" alt="Screenshot from My RPG" id="game-image">
+
+
+        <p>
+          <a href="https://drive.google.com/drive/folders/1lFx0wJrtJEXFn4ivlM6DmOOmugq9Ims_?usp=drive_link" target="_blank" id="game-link">
+            Download the Game
+          </a>
+
+      </article>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about">
+      <h1>Rahul Nishad</h1>
+    <p>Mumbai, Maharashtra | 
+      <a href="mailto:rahulnishad143h@gmail.com">rahulnishad143h@gmail.com</a> | +918928147166
+    </p>
+    <p>
+      <a href="https://www.linkedin.com/in/your-linkedin-profile" target="_blank">LinkedIn</a> |
+      <a href="https://github.com/your-github-profile" target="_blank">GitHub</a>
+    </p>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education">
+      <h2>Education</h2>
+      <p>Bachelor of Science in Information Technology from Mumbai University</p>
+      <ul>
+        <li>Semester 1 CGPA: 8.7/10</li>
+        <li>Semester 2 CGPA: 8.1/10</li>
+        <li>Semester 3 CGPA: 7.8/10</li>
+        <li>Semester 4 CGPA: 8.2/10</li>
+        <li>Average CGPA: 8.2/10</li>
+      </ul>
+    </section>
+    <!-- Contact Section -->
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form id="contactForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+        
+        <button type="submit">Send</button>
+      </form>
+    </section>
+    <section id="particle-settings-section">
+      <h2>Customize Particle Background</h2>
+      <form id="particleSettingsForm">
+        <div class="input-group">
+          <label for="particleSpeed">
+            Particle Speed: <span id="displaySpeed">1</span>
+          </label>
+          <input type="range" id="particleSpeed" name="particleSpeed" min="0" max="9" step="0.1" value="1">
+        </div>
+        <div class="input-group">
+          <label for="particleColor">Particle Color:</label>
+          <input type="color" id="particleColor" name="particleColor" value="#ffffff">
+        </div>
+        <button type="submit">Apply Settings</button>
+      </form>
+    </section>
+    <section id="section-settings">
+      <h2>Customize Section Appearance</h2>
+      <form id="sectionSettingsForm">
+        <div class="input-group">
+          <label for="sectionOpacity">
+            Section Transparency: <span id="displayOpacity">0.85</span>
+          </label>
+          <input type="range" id="sectionOpacity" name="sectionOpacity" min="0" max="1" step="0.05" value="0.85">
+        </div>
+        <div class="input-group">
+          <label for="sectionColor">Section Background Color:</label>
+          <input type="color" id="sectionColor" name="sectionColor" value="#ecf0f1">
+        </div>
+        <button type="submit">Apply Section Settings</button>
+      </form>
+    </section>
+    
+    
+
+    
+  </main>
+
+  <script src="./scripts.js"></script>
+</body>
+</html>

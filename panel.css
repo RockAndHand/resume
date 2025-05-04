@@ -1,0 +1,112 @@
+/* Particle Settings Section Styles */
+#particle-settings-section {
+    padding: 2rem;
+    background: rgba(236, 240, 241, 0.403); /* The fourth value (0.8) controls the transparency */
+    border: 1px solid rgba(221, 221, 221, 0.8); /* Optionally making the border slightly transparent as well */
+    margin: 2rem auto;
+    max-width: 600px;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  #particle-settings-section h2 {
+    margin-bottom: 1.5rem;
+    font-size: 1.75rem;
+    color: var(--primary-color);
+  }
+  
+  #particle-settings-section .input-group {
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #particle-settings-section label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  #particle-settings-section input[type="range"] {
+    width: 100%;
+  }
+  
+  #particle-settings-section input[type="color"] {
+    width: 100px;
+    height: 40px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+  }
+  
+  #particle-settings-section button {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    background: var(--accent-color);
+    color: var(--light-color);
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  #particle-settings-section button:hover {
+    transform: scale(1.05);
+  }
+/* Section Settings Panel - Same Size & Styling as Particle Settings Panel */
+#section-settings {
+    padding: 2rem;
+    background: rgba(236, 240, 241, 0.399); /* Matching transparency */
+    border: 1px solid rgba(221, 221, 221, 0.8); /* Matching border */
+    margin: 2rem auto;
+    max-width: 600px;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  #section-settings h2 {
+    margin-bottom: 1.5rem;
+    font-size: 1.75rem;
+    color: var(--primary-color);
+  }
+  
+  #section-settings .input-group {
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #section-settings label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  #section-settings input[type="range"] {
+    width: 100%;
+  }
+  
+  #section-settings input[type="color"] {
+    width: 100px;
+    height: 40px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+  }
+  
+  #section-settings button {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    background: var(--accent-color);
+    color: var(--light-color);
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  #section-settings button:hover {
+    transform: scale(1.05);
+  }
+    
+  
